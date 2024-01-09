@@ -2,12 +2,14 @@
 * body{
   margin: 0px;
 }
+
 nav{
 background-color: #242424;
 display: flex;
 flex-direction: column;
-padding: 2px;
-width: fit-content;
+padding: 10px;
+width: 30%;
+height: 97vh;
 }
 .image_and_text p {
   color: white;
@@ -16,11 +18,12 @@ width: fit-content;
   margin-bottom: auto;
   font-family: 'Poppins', sans-serif;
 }
+section{
+  display: flex;
+}
 .hamburger{
   width: 2rem;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: 2rem;
+margin: auto;
 }
 
 .image_and_text img {
@@ -34,7 +37,7 @@ width: fit-content;
   width: fit-content;
   align-items: center;
   height: 2.2rem;
-  margin-left: 2.5rem;
+  margin: auto;
 }
 
 .hamburger{
@@ -50,4 +53,30 @@ width: fit-content;
 
 .options{
   display: flex;
+  width:60% ;
+  margin: auto;
+  
 }
+.options img{
+  width: 1.8rem;
+  margin: 3px;
+}
+
+.options p {
+  font-family: 'Poppins', sans-serif;
+  color:rgba(255, 255, 255, 0.2);
+}
+
+.options :hover{
+  cursor: pointer;
+  transition: 2s;
+  background-color: #242424;
+}
+
+.options p:hover{
+  transition: 2s;
+  color: white;
+}
+ img {
+  width: 70%;
+ }
