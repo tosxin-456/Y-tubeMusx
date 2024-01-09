@@ -89,24 +89,20 @@ margin: auto;
 }
  #search{
   max-width: 20rem;
-  width: 70%;
-  background-color: #242424;
-  padding: 15px;
-  border-radius: 2rem;
-  border-color: black;
-  border:none;
-  margin-top: 5%;
-  margin-left: 60%;
+  width: fit-content;
  }
 
 input{
 color: white;
 font-family: 'Poppins',sans-serif;
+background-color: #242424;
+border: none;
 
 }
  input::placeholder{
 font-family: 'Poppins',sans-serif;
 font-size: 1rem;
+
  }
 
  .musicMan{
@@ -114,6 +110,28 @@ font-size: 1rem;
   color: white;
   text-align: center;
  }
+ .article{
+  background-color: #242424;
+  padding: 10px;
+  border-radius: 2rem;
+  border-color: black;
+  border:none;
+  margin-left: 40%;
+  width:40%;
+  background-color: #242424;
+  margin-top: 5%;
+  display: flex;
+ }
+ input:focus {
+  outline: none;
+}
+
+.article img{
+  width: 2rem;
+  margin-left: auto;
+}
+
+
 
  @media screen and (max-width:550px) {
  .options p{
