@@ -1,0 +1,24 @@
+* body{
+  margin: 0px;
+}
+nav{
+background-color: black;
+width: 100%;
+
+}
+.image_and_text p {
+  color: white;
+  font-size:23px;
+}
+
+
+.image_and_text img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.image_and_text{
+  display: flex;
+  width: fit-content;
+  align-items: center;
+}
