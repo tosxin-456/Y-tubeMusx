@@ -114,3 +114,33 @@ font-size: 1rem;
   color: white;
   text-align: center;
  }
+
+ @media screen and (max-width:550px) {
+ .options p{
+  display: none;
+ }
+ .options img{
+  width: 2rem;
+  height: 2rem;
+  margin: auto;
+ }
+ #home:hover{
+    content: url('../assets/home_hover.svg');
+}
+#artist:hover{
+  content: url('../assets/artist_hover.svg');
+
+}
+#liked:hover{
+  content: url('../assets/heart_hover.svg');
+}
+#account:hover{
+  content: url('../assets/account_hover.svg');
+}
+#premium:hover{
+  content: url('../assets/premium_hover.svg');
+}
+#playlist:hover{
+  content: url('../assets/playlist_hover.svg');
+}
+ }
