@@ -4,12 +4,16 @@
 }
 
 nav{
+position: fixed;
 background-color: #242424;
 display: flex;
 flex-direction: column;
 padding: 10px;
 width: 30%;
-height: 97vh;
+height: 100%;
+left: 0;
+top: 0;
+
 }
 .image_and_text p {
   color: white;
@@ -79,4 +83,34 @@ margin: auto;
 }
  img {
   width: 70%;
+ }
+.article{
+  width: 70%;
+}
+ #search{
+  max-width: 20rem;
+  width: 70%;
+  background-color: #242424;
+  padding: 15px;
+  border-radius: 2rem;
+  border-color: black;
+  border:none;
+  margin-top: 5%;
+  margin-left: 60%;
+ }
+
+input{
+color: white;
+font-family: 'Poppins',sans-serif;
+
+}
+ input::placeholder{
+font-family: 'Poppins',sans-serif;
+font-size: 1rem;
+ }
+
+ .musicMan{
+  font-family: 'Poppins';
+  color: white;
+  text-align: center;
  }

@@ -8,7 +8,7 @@ import artist from '../assets/artist.svg'
 import premium from '../assets/premuim.svg'
 import liked from '../assets/liked.svg'
 import account from '../assets/my account.svg'
-import sixNine from '../assets/6ix9ine.svg'
+import musicman from '../assets/music man.svg'
 import '../css/navbar.css'
 
 
@@ -56,9 +56,15 @@ const Navbar = () => {
         </div>   <div className='options'>
           <img src={account} alt="" />
           <p>Account</p>
-        </div>
+          </div>
+          <div className='musicMan'>
+          <p>Topins</p>
+          <img src={musicman} alt="" />
+          </div>
       </nav>
-        {/* <img src={sixNine} alt="" /> */}
+      <div className='article'>
+          <input type="text" name="" placeholder='Search' id="search" />
+     </div>
       </section>
     </>
  )
