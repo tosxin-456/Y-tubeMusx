@@ -60,6 +60,26 @@ margin: auto;
   margin: auto;
   
 }
+.rocketMan img{
+  animation: rotateImage 4s infinite;
+  transform-origin: center;
+}
+
+@keyframes rotateImage{
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(15deg);
+  }
+  50% {
+   transform: rotate(-15deg);
+  }
+  75% {
+ transform: rotate(0deg);
+  }
+}
+
 .options img{
   height: 1.8rem;
   width: 1.8rem;
