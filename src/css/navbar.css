@@ -76,7 +76,7 @@ margin: auto;
    transform: rotate(-15deg);
   }
   75% {
- transform: rotate(0deg);
+ transform: rotate(30deg);
   }
 }
 
