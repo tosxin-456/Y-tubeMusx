@@ -81,8 +81,8 @@ animation: pop_in 2s ease-in;
   content:  url('../assets/close.svg');
 }
 .close{
-  animation: close 4s forwards;
-  transition: 8s;
+  animation: close 3s forwards;
+  transition: 3s;
   align-items: center;
 }
 
