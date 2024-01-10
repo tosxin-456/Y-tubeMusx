@@ -17,7 +17,7 @@ import Homepage from './homePage'
 
 const Navbar = () => {
   function Clicked() {
-    console.log('clicked the button')
+    console.log('clicked the button', window.innerWidth * 0.5)
     const rocketMan = document.querySelector('.rocketMan')
     const hamburger = document.querySelector('.hamburger')
     const navBa = document.querySelector('nav')
@@ -26,7 +26,7 @@ const Navbar = () => {
     hamburger.style.marginRight = 'calc(100vw - 70px)';
     hamburger.classList.add('rotate')
 
-    if (navBa.offsetWidth<window.innerWidth * 0.44) {
+    if (navBa.offsetWidth<window.innerWidth * 0.5) {
       rocketMan.style.display = 'none'
       top.style.display = 'none'
     }

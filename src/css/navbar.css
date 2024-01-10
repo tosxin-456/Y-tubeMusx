@@ -229,8 +229,9 @@ font-size: 1rem;
   .options:hover .description{
     display: block;
     }
-    .options img {
-      margin: auto;
+    .options  {
+      margin-left:-10%;
+      /* background-color: black; */
     }
  .options p{
   display: none;
@@ -252,7 +253,7 @@ font-size: 1rem;
   transition: left 3s;
 }
 .rotate{
-animation: rotate 4s ease-in;
+animation: rotate 5s ease-in;
 transition:  15s;
 }
 @keyframes rotate{
@@ -272,6 +273,10 @@ transition:  15s;
   transform: rotate(360deg);
 
 }
+}
+.image_and_text img {
+  width: 2.3rem;
+  margin-left: -10%;
 }
 
 #artist:hover{
