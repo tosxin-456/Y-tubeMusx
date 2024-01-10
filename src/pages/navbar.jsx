@@ -11,6 +11,7 @@ import account from '../assets/my account.svg'
 import musicman from '../assets/music man.svg'
 import search from '../assets/search.svg'
 import '../css/navbar.css'
+import Homepage from './homePage'
 
 
 const Navbar = () => {
@@ -63,10 +64,7 @@ const Navbar = () => {
           <img src={musicman} alt="" />
           </div>
       </nav>
-      <div className='article'>
-          <input type="text" name="" placeholder='Search' id="search" />
-          <img src={search} alt="" />
-     </div>
+        <Homepage/>
       </section>
     </>
  )
