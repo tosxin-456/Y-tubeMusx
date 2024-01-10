@@ -12,6 +12,7 @@ import musicman from '../assets/music man.svg'
 import search from '../assets/search.svg'
 import '../css/navbar.css'
 import Homepage from './homePage'
+import { Link } from 'react-router-dom'
 
 
 const Navbar = () => {
