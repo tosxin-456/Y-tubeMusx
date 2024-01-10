@@ -33,7 +33,7 @@ const Navbar = () => {
           {/* <img className='hamburger' src={hamburger} alt="" id='hambe' /> */}
         <div className='image_and_text'>
             <img src={youTubeLogo} alt="" />
-            <p>Music</p>
+            <p>TopMusic</p>
         </div>
         <div className='options'>
           <img src={home} id='home' alt="" />
@@ -58,7 +58,7 @@ const Navbar = () => {
           <img src={account} alt="" id='account' />
           <p>Account</p>
           </div>
-          <div className='musicMan'>
+          <div className='rocketMan'>
           <p>Topins</p>
           <img src={musicman} alt="" />
           </div>
