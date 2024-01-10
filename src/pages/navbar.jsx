@@ -30,6 +30,7 @@ const Navbar = () => {
     if (navBa.offsetWidth<window.innerWidth * 0.5) {
       rocketMan.style.display = 'none'
       top.style.display = 'none'
+      options.style.marginRight = '-15%'
     }
     else {
       rocketMan.style.display = 'block'
