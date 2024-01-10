@@ -14,7 +14,6 @@ max-width: 18rem;
 height: 100%;
 left: 0;
 top: 0;
-
 }
 .image_and_text p {
   color: white;
@@ -79,9 +78,30 @@ animation: pop_in 2s ease-in;
   border: 0px;
   content:  url('../assets/close.svg');
 }
-.options:hover .description{
-display: block;
+.close{
+  animation: close 4s forwards;
+  transition: 8s;
 }
+
+@keyframes close{
+0%{
+  width: 40%;
+}
+25%{
+  width:30%
+}
+50%{
+  width: 20%;
+}
+75%{
+  width: 10%;
+}
+100%{
+  width: 7%;
+}
+}
+
+
 
 @keyframes turn{
   0%{
@@ -206,7 +226,12 @@ font-size: 1rem;
     font-size:1.2rem;
     font-family: 'Poppins', sans-serif;
   }
-
+  .options:hover .description{
+    display: block;
+    }
+    .options img {
+      margin: auto;
+    }
  .options p{
   display: none;
  }

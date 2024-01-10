@@ -18,9 +18,22 @@ import Homepage from './homePage'
 const Navbar = () => {
   function Clicked() {
     console.log('clicked the button')
+    const rocketMan = document.querySelector('.rocketMan')
     const hamburger = document.querySelector('.hamburger')
+    const navBa = document.querySelector('nav')
+    const top  = document.querySelector('.top')
+    navBa.classList.add('close')
     hamburger.style.marginRight = 'calc(100vw - 70px)';
     hamburger.classList.add('rotate')
+
+    if (navBa.offsetWidth<window.innerWidth * 0.44) {
+      rocketMan.style.display = 'none'
+      top.style.display = 'none'
+    }
+    else {
+      rocketMan.style.display = 'block'
+      top.style.display  = 'block'
+    }
   }
     
   return (
@@ -30,7 +43,7 @@ const Navbar = () => {
           <img className='hamburger' src={hamburger} alt="" id='hambe' onClick = {()=>Clicked()} />
         <div className='image_and_text'>
             <img src={youTubeLogo} alt="" />
-            <p>TopMusic</p>
+            <p className='top'>TopMusic</p>
           </div>
         <div className='options'>
           <img src={home} id='home' alt="" />
