@@ -37,7 +37,7 @@ transition: 3s;
   margin-bottom: auto;
 }
 
-.image_and_text img:hover{
+.image_and_text img{
   cursor: pointer;
   animation: turn 4s infinite;
 }
