@@ -16,30 +16,25 @@ import Homepage from './homePage'
 
 
 const Navbar = () => {
-  
-  function iconChanger() {
-    const [icon, setIcon] = useState(hamburger);
-    function handleClick() {
-      if (icon === hamburger) {
-        setIcon(close);
-      } else {
-        setIcon(hamburger);
-      }
-    }
-}
+  function Clicked() {
+    console.log('clicked the button')
+    const hamburger = document.querySelector('.hamburger')
+    hamburger.style.marginRight = 'calc(100vw - 70px)';
+    hamburger.classList.add('rotate')
+  }
     
   return (
     <>
       <section>
         <nav>
-          <img className='hamburger' src={hamburger} alt="" id='hambe' />
+          <img className='hamburger' src={hamburger} alt="" id='hambe' onClick = {()=>Clicked()} />
         <div className='image_and_text'>
             <img src={youTubeLogo} alt="" />
             <p>TopMusic</p>
-        </div>
+          </div>
         <div className='options'>
           <img src={home} id='home' alt="" />
-          <p>Home</p>
+          <p id='hm'>Home</p>
         </div>
         <div className='options'>
           <img src={playlist} id ='playlist' alt="" />
