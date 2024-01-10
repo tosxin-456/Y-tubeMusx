@@ -59,7 +59,7 @@ const Navbar = () => {
           <p>Account</p>
           </div>
           <div className='rocketMan'>
-          <p>Topins</p>
+          <p>Topins Musica</p>
           <img src={musicman} alt="" />
           </div>
       </nav>
