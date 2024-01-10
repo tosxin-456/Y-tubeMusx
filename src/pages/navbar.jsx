@@ -1,4 +1,5 @@
 import React ,{useState} from 'react'
+import { Link } from 'react-router-dom'
 import hamburger from '../assets/hamburger.svg'
 import close from '../assets/close.svg'
 import youTubeLogo from '../assets/logo.svg'
@@ -12,7 +13,6 @@ import musicman from '../assets/music man.svg'
 import search from '../assets/search.svg'
 import '../css/navbar.css'
 import Homepage from './homePage'
-import { Link } from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -32,7 +32,7 @@ const Navbar = () => {
     <>
       <section>
         <nav>
-          {/* <img className='hamburger' src={hamburger} alt="" id='hambe' /> */}
+          <img className='hamburger' src={hamburger} alt="" id='hambe' />
         <div className='image_and_text'>
             <img src={youTubeLogo} alt="" />
             <p>TopMusic</p>

@@ -26,7 +26,7 @@ section{
 }
 .hamburger{
   width: 2rem;
-margin: auto;
+margin-left: auto;
 }
 
 .image_and_text img {
