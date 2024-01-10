@@ -27,12 +27,19 @@ section{
 .hamburger{
   width: 2rem;
 margin-left: auto;
+transition: 3s;
 }
+
 
 .image_and_text img {
   width: 2.3rem;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.image_and_text img:hover{
+  cursor: pointer;
+  animation: turn 4s infinite;
 }
 
 .image_and_text{
@@ -49,11 +56,19 @@ margin-left: auto;
 
 .hamburger:hover{
   cursor: pointer;
-  box-shadow: 0 0 0.1rem pink;
+  box-shadow: 0 0 0.7rem rgb(255, 9, 50);
   border: 0px;
-  
+  content:  url('../assets/close.svg');
 }
 
+@keyframes turn{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
 .options{
   display: flex;
   width:60% ;
