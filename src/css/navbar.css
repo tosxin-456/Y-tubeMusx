@@ -39,7 +39,7 @@ transition: 3s;
 
 .image_and_text img{
   cursor: pointer;
-  animation: turn 4s infinite;
+  animation: turn 4s ease-in;
 }
 
 .image_and_text{
