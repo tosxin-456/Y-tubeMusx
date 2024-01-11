@@ -84,7 +84,7 @@ animation: pop_in 2s ease-in;
 }
 
 .open {
-  animation: open_ 4s forwards;
+  animation: open_ 3s forwards;
   transition: 3s;
 }
 
