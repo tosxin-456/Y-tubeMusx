@@ -284,6 +284,9 @@ font-size: 1rem;
  .options{
   width: unset;
  }
+ .image_and_text {
+  width: unset;
+ }
  .options img{
   width: 2rem;
   height: 2rem;
