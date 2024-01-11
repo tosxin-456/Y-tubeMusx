@@ -17,24 +17,31 @@ import Homepage from './homePage'
 
 const Navbar = () => {
   function Clicked() {
-    console.log('clicked the button', window.innerWidth * 0.5)
     const rocketMan = document.querySelector('.rocketMan')
     const hamburger = document.querySelector('.hamburger')
     const navBa = document.querySelector('nav')
     const top = document.querySelector('.top')
     const options = document.querySelector('.options')
-    navBa.classList.add('close')
-    hamburger.style.marginRight = 'calc(100vw - 70px)';
-    hamburger.classList.add('rotate')
-    options.style.marginLeft = '0px'
-    if (navBa.offsetWidth<window.innerWidth * 0.5) {
-      rocketMan.style.display = 'none'
-      top.style.display = 'none'
-      options.style.marginRight = '-15%'
-    }
-    else {
-      rocketMan.style.display = 'block'
-      top.style.display  = 'block'
+    console.log('clicked the button', window.innerWidth * 0.05)
+    if (navBa.offsetWidth < 250 ) {
+      navBa.classList.add('close')
+      hamburger.style.marginRight = 'calc(100vw - 50px)';
+      hamburger.classList.add('rotate')
+      options.style.marginLeft = '0px'
+      if (navBa.offsetWidth<window.innerWidth * 0.5) {
+        rocketMan.style.display = 'none'
+        top.style.display = 'none'
+        options.style.marginRight = '-15%'
+      }
+      else {
+        rocketMan.style.display = 'block'
+        top.style.display  = 'block'
+      }
+      
+    } else {
+      navBa.classList.add('open')
+      hamburger.classList.add('antirotate')
+      hamburger.style.marginLeft = 'calc(100vw - 50px)';
     }
   }
     

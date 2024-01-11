@@ -86,6 +86,52 @@ animation: pop_in 2s ease-in;
   align-items: center;
 }
 
+.open {
+  animation: open 4s forwards;
+  transition: 3s;
+}
+
+@keyframes opem {
+  0%{
+    width: 10%;
+  }
+  25%{
+    width:10%
+  }
+  50%{
+    width: 20%;
+  }
+  75%{
+    width: 30%;
+  }
+  100%{
+    width: 40%;
+  }
+}
+
+.antirotate{
+  animation: antirotate 4s ease-in;
+  transition: 3s;
+}
+
+@keyframes antirotate{
+  0%{
+    transform: rotate(-180deg);
+  }
+  25%{
+    transform: rotate(-135deg);
+  }
+  50%{
+    transform: rotate(-90deg);
+  }
+  75%{
+    transform: rotate(-45deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
 @keyframes close{
 0%{
   width: 40%;
@@ -235,6 +281,9 @@ font-size: 1rem;
  .options p{
   display: none;
  }
+ .options{
+  width: unset;
+ }
  .options img{
   width: 2rem;
   height: 2rem;
@@ -257,9 +306,17 @@ transition:  15s;
 0%{
   transform: rotate(0deg);
 }
+25%{
+  transform: rotate(45deg);
+}
+50%{
+  transform: rotate(90deg);
+}
+75%{
+  transform: rotate(135deg);
+}
 100%{
   transform: rotate(180deg);
-
 }
 }
 
