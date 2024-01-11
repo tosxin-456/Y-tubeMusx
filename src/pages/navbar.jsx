@@ -49,7 +49,7 @@ const Navbar = () => {
       options.style.margin = 'unset'
       setTimeout(() => {
         rocketMan.style.display = 'block';
-      }, 5000);
+      }, 4000);
     }
   }
     
