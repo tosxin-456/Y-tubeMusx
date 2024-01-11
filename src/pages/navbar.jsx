@@ -45,9 +45,9 @@ const Navbar = () => {
       navBa.classList.remove('close')
       navBa.classList.add('open')
       hamburger.style.marginRight = 'unset';
-      top.style.display = 'block'
       options.style.margin = 'unset'
       setTimeout(() => {
+        top.style.display = 'block'
         rocketMan.style.display = 'block';
       }, 4000);
     }
