@@ -22,8 +22,9 @@ const Navbar = () => {
     const navBa = document.querySelector('nav')
     const top = document.querySelector('.top')
     const options = document.querySelector('.options')
-    console.log('clicked the button', window.innerWidth * 0.05)
-    if (navBa.offsetWidth < 250 ) {
+    const hm = document.getElementById('home')
+    if (navBa.offsetWidth > 150 ) {
+      console.log('clicked the button',navBa.offsetWidth)
       navBa.classList.add('close')
       hamburger.style.marginRight = 'calc(100vw - 50px)';
       hamburger.classList.add('rotate')
@@ -39,9 +40,14 @@ const Navbar = () => {
       }
       
     } else {
+      console.log('this is working')
       navBa.classList.add('open')
       hamburger.classList.add('antirotate')
-      hamburger.style.marginLeft = 'calc(100vw - 50px)';
+      hamburger.style.marginRight = 'unset';
+      rocketMan.style.display = 'block'
+      top.style.display = 'block'
+      options.style.margin = 'unset'
+      
     }
   }
     
