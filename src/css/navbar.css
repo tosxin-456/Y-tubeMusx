@@ -259,8 +259,7 @@ font-size: 1rem;
 }
 
 .rotate{
-  animation: rotate 4s infinite;
-  left: calc(100% - 50px);
+  animation: rotate 4s ease-in;
   }
 
  @media screen and (max-width:550px) {
@@ -295,7 +294,7 @@ font-size: 1rem;
    transition: left 3s;
   }
   .rotate{
-    animation: rotate 5s ease-in;
+    animation: rotate 4s ease-in;
     transition:  15s;
   }
   

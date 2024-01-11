@@ -29,7 +29,7 @@ const Navbar = () => {
       hamburger.style.marginRight = 'calc(100vw - 70px)';
       hamburger.classList.add('rotate')
       options.style.marginLeft = '0px'
-      if (navBa.offsetWidth<window.innerWidth * 0.5) {
+      if (navBa.offsetWidth < window.innerWidth * 0.5) {
         rocketMan.style.display = 'none'
         top.style.display = 'none'
         options.style.marginRight = '-15%'
@@ -40,16 +40,16 @@ const Navbar = () => {
       }
       
     } else {
-      console.log('this is working')
       hamburger.classList.remove('rotate')
       hamburger.classList.add('antirotate')
       navBa.classList.remove('close')
       navBa.classList.add('open')
       hamburger.style.marginRight = 'unset';
-      rocketMan.style.display = 'block'
       top.style.display = 'block'
       options.style.margin = 'unset'
-      
+      setTimeout(() => {
+        rocketMan.style.display = 'block';
+      }, 5000);
     }
   }
     
