@@ -71,9 +71,7 @@ animation: pop_in 2s ease-in;
 .hamburger{
   transition: 3s;
 }
-/* .options img{
-  background-color: black; */
-/* } */
+
 .hamburger:hover{
   cursor: pointer;
   box-shadow: 0 0 0.7rem rgb(255, 9, 50);
@@ -83,11 +81,10 @@ animation: pop_in 2s ease-in;
 .close{
   animation: close 3s forwards;
   transition: 3s;
-  align-items: center;
 }
 
 .open {
-  animation: open 4s forwards;
+  animation: open_ 4s forwards;
   transition: 3s;
 }
 
@@ -134,7 +131,7 @@ animation: pop_in 2s ease-in;
 }
 }
 
-@keyframes open {
+@keyframes open_ {
   0%{
     width: 8%;
   }
