@@ -82,12 +82,12 @@ animation: pop_in 0.5s ease-in;
   /* content:  url('../assets/close.svg'); */
 }
 .close{
-  animation: close 1s forwards ease;
+  animation: close 1s ease forwards;
   transition:  3s ease;
 }
 
 .open {
-  animation: open_ 1s forwards ease;
+  animation: open_ 1s  ease forwards;
   transition:  3s ease;
 }
 
@@ -300,7 +300,8 @@ font-size: 1rem;
   .options:hover .description{
     display: block;
     font-size: 12px;
-    color: rgb(191, 24, 24);
+    color: rgb(174, 5, 5);
+    padding: 6px;
     }
  .options p{
   display: none;
