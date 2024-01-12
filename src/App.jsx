@@ -5,7 +5,7 @@ import Navbar from './pages/navbar'
 import Homepage from './pages/homePage'
 
 function App() {
-  const lazyComponent = React.lazy(()=>import(''))
+  // const lazyComponent = React.lazy(()=>import(''))
   return (
     <>
       <Navbar />

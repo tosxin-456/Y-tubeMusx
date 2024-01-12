@@ -30,9 +30,6 @@ const Navbar = () => {
       close.style.display = 'none'
       navBa.classList.remove('open')
       navBa.classList.add('close')
-      setTimeout(() => {
-        hamburger.style.boxShadow = 'unset'
-      }, 1000);
       if (navBa.offsetWidth < window.innerWidth * 0.5) {
         rocketMan.style.display = 'none'
         top.style.display = 'none'
@@ -41,21 +38,23 @@ const Navbar = () => {
         rocketMan.style.display = 'block'
         top.style.display  = 'block'
       }
-      
+      setTimeout(() => {
+        hamburger.style.boxShadow = 'unset'
+      }, 1000);
     } else {
       hamburger.style.border = 'none'
       hamburger.style.boxShadow = '0 0 0.7rem rgb(255, 9, 50)'
-      hamburger.style.display = 'none'
-      close.style.display = 'block'
       close.classList.remove('rotate')
       close.classList.add('antirotate')
+      hamburger.style.display = 'none'
+      close.style.display = 'block'
       navBa.classList.remove('close')
       navBa.classList.add('open')
       hamburger.style.marginRight = 'unset';
       setTimeout(() => {
+        close.style.boxShadow = 'unset'
         top.style.display = 'block'
         rocketMan.style.display = 'block';
-        close.style.boxShadow = 'unset'
       }, 1000);
     }
   }
