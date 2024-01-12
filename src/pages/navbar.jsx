@@ -19,16 +19,19 @@ const Navbar = () => {
     const hamburger = document.querySelector('.hamburger')
     const navBa = document.querySelector('nav')
     const top = document.querySelector('.top')
+    const close = document.getElementById('close')
     // const options = document.querySelector('.options')
-    if (navBa.offsetWidth > 150 ) {
+    if (navBa.offsetWidth > 150) {
+      console.log('open')
+      hamburger.classList.remove('rotate')
+      hamburger.classList.add('antirotate')
+      hamburger.style.display = 'block'
+      close.style.display = 'none'
       navBa.classList.remove('open')
       navBa.classList.add('close')
-      hamburger.style.marginRight = 'calc(100vw - 70px)';
-      hamburger.classList.add('rotate')
       if (navBa.offsetWidth < window.innerWidth * 0.5) {
         rocketMan.style.display = 'none'
         top.style.display = 'none'
-        // options.style.marginRight = '-15%'
       }
       else {
         rocketMan.style.display = 'block'
@@ -36,6 +39,11 @@ const Navbar = () => {
       }
       
     } else {
+      console.log('close')
+      hamburger.style.display = 'none'
+      close.style.display = 'block'
+      close.classList.remove('rotate')
+      close.classList.add('antirotate')
       hamburger.classList.remove('rotate')
       hamburger.classList.add('antirotate')
       navBa.classList.remove('close')
@@ -52,7 +60,8 @@ const Navbar = () => {
     <>
       <section>
         <nav>
-          <img className='hamburger' src={hamburger} alt="" id='hambe' onClick = {()=>Clicked()} />
+          <img className='hamburger' src={hamburger} alt="" id='hambe' onClick={() => Clicked()} />
+          <img className='hamburger' src={close} alt="" id='close' onClick={() => Clicked()} />
         <div className='image_and_text'>
             <img src={youTubeLogo} loading='lazy' alt="" />
             <p className='top'>topMusic</p>
