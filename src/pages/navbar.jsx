@@ -79,11 +79,11 @@ const Navbar = () => {
         <div className='options'>
           <img src={liked} alt="" id='liked' />
             <p>Liked</p>
-            <div className='description'> Liked songs</div>
+            <div className='description'> Liked</div>
         </div>   <div className='options'>
           <img src={account} alt="" id='account' />
             <p>Account</p>
-            <div className='description'> My account</div>
+            <div className='description'> Account</div>
           </div>
           <div className='rocketMan'>
           <p>Topins Musica en ecompassant</p>
