@@ -1,6 +1,6 @@
 import React ,{useState} from 'react'
 import hamburger from '../assets/hamburger.svg'
-import youTubeLogo from '../assets/logo.svg'
+import youTubeLogo from '../assets/logo7.svg'
 import home from '../assets/home.svg'
 import playlist from '../assets/playlist.svg'
 import artist from '../assets/artist.svg'

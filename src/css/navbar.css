@@ -36,9 +36,9 @@ transition: 3s;
  font-family: 'Poppins';
  font-size: 14px;
 margin: auto;
-color: white;
+color: rgb(127, 25, 25);
 display: none;
-animation: pop_in 2s ease-in;
+animation: pop_in 0.5s ease-in;
 }
 
 @keyframes pop_in{
@@ -59,6 +59,8 @@ animation: pop_in 2s ease-in;
 .image_and_text img{
   cursor: pointer;
   animation: turn 4s ease-in;
+  /* background-color: rgb(176, 171, 171); */
+  /* border-radius: 50%; */
 }
 
 .image_and_text{
@@ -298,6 +300,7 @@ font-size: 1rem;
   .options:hover .description{
     display: block;
     font-size: 12px;
+    color: rgb(191, 24, 24);
     }
  .options p{
   display: none;
