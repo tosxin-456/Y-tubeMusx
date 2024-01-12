@@ -18,7 +18,9 @@ const Navbar = () => {
     const hamburger = document.querySelector('.hamburger')
     const navBa = document.querySelector('nav')
     const top = document.querySelector('.top')
+    // const options = document.querySelector('.options')
     if (navBa.offsetWidth > 150 ) {
+      console.log('clicked the button', navBa.offsetWidth)
       navBa.classList.remove('open')
       navBa.classList.add('close')
       hamburger.style.marginRight = 'calc(100vw - 70px)';
@@ -39,7 +41,6 @@ const Navbar = () => {
       navBa.classList.remove('close')
       navBa.classList.add('open')
       hamburger.style.marginRight = 'unset';
-      options.style.margin = 'unset'
       setTimeout(() => {
         top.style.display = 'block'
         rocketMan.style.display = 'block';
