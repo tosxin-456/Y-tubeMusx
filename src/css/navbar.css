@@ -80,12 +80,12 @@ animation: pop_in 2s ease-in;
   content:  url('../assets/close.svg');
 }
 .close{
-  animation: close 2s forwards;
+  animation: close 1s forwards;
   transition: 3s;
 }
 
 .open {
-  animation: open_ 2s forwards;
+  animation: open_ 1s forwards;
   transition: 3s;
 }
 
@@ -187,10 +187,12 @@ animation: pop_in 2s ease-in;
 .options img{
   height: 1.8rem;
   width: 1.8rem;
+  margin: 10px;
 }
 
 .options p {
-  margin-top: 2px;
+  margin-top: auto;
+  margin-bottom: auto;
   font-family: 'Poppins', sans-serif;
   color:rgba(255, 255, 255, 0.2);
 }
@@ -287,14 +289,8 @@ font-size: 1rem;
  .options img{
   width: 2rem;
   height: 2rem;
-  /* margin: auto; */
- }
- 
-#homee {
-  /* background-color: black; */
   margin: auto;
-}
- 
+ }
  .hamburger{
    transition: left 3s;
   }

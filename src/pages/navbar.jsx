@@ -18,14 +18,11 @@ const Navbar = () => {
     const hamburger = document.querySelector('.hamburger')
     const navBa = document.querySelector('nav')
     const top = document.querySelector('.top')
-    const options = document.querySelector('.options')
     if (navBa.offsetWidth > 150 ) {
-      console.log('clicked the button', navBa.offsetWidth)
       navBa.classList.remove('open')
       navBa.classList.add('close')
       hamburger.style.marginRight = 'calc(100vw - 70px)';
       hamburger.classList.add('rotate')
-      options.style.marginLeft = '0px'
       if (navBa.offsetWidth < window.innerWidth * 0.5) {
         rocketMan.style.display = 'none'
         top.style.display = 'none'
