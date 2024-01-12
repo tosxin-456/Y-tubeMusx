@@ -60,24 +60,24 @@ const Navbar = () => {
             <p className='top'>TopMusic</p>
           </div>
           <div className='options'>
-          {/* <img src={home} id='homee' alt=""  /> */}
+          <img src={home} id='homee' alt=""  />
             <p>Home</p>
             <div className='description'> Home </div>
         </div>
         <div className='options'>
-          <img src={home} id ='playlist' alt="" />
+          <img src={playlist} id ='playlist' alt="" />
             <p>Playlist</p>
             <div className='description'> Playlist</div>
         </div>
         <div className='options'>
-          <img src={playlist} id = 'artist' alt="" />
-            <p>Playlist</p>
-            <div className='description'> Playlist</div>
-        </div>
-        <div className='options'>
-          <img src={artist} alt="" id='premium' />
+          <img src={artist} id = 'artist' alt="" />
             <p>Artist</p>
-            <div className='description'> Artist</div>
+            <div className='description'> Artists</div>
+        </div>
+        <div className='options'>
+          <img src={premium} alt="" id='premium' />
+            <p>Premium</p>
+            <div className='description'> Premium</div>
         </div>
         <div className='options'>
           <img src={liked} alt="" id='liked' />
