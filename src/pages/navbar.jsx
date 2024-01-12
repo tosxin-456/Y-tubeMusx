@@ -25,8 +25,8 @@ const Navbar = () => {
       console.log('open')
       close.style.border = 'none'
       close.style.boxShadow = '0 0 0.7rem rgb(255, 9, 50)'
-      hamburger.classList.remove('rotate')
-      hamburger.classList.add('antirotate')
+      hamburger.classList.remove('antirotate')
+      hamburger.classList.add('rotate')
       hamburger.style.display = 'block'
       close.style.display = 'none'
       navBa.classList.remove('open')
@@ -51,8 +51,6 @@ const Navbar = () => {
       close.style.display = 'block'
       close.classList.remove('rotate')
       close.classList.add('antirotate')
-      hamburger.classList.remove('rotate')
-      hamburger.classList.add('antirotate')
       navBa.classList.remove('close')
       navBa.classList.add('open')
       hamburger.style.marginRight = 'unset';
