@@ -8,6 +8,7 @@ import premium from '../assets/premuim.svg'
 import liked from '../assets/liked.svg'
 import account from '../assets/my account.svg'
 import musicman from '../assets/music man.svg'
+import close from '../assets/close.svg'
 import '../css/navbar.css'
 import Homepage from './homePage'
 
@@ -53,7 +54,7 @@ const Navbar = () => {
         <nav>
           <img className='hamburger' src={hamburger} alt="" id='hambe' onClick = {()=>Clicked()} />
         <div className='image_and_text'>
-            <img src={youTubeLogo} alt="" />
+            <img src={youTubeLogo} loading='lazy' alt="" />
             <p className='top'>topMusic</p>
           </div>
           <div className='options'>

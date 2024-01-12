@@ -79,25 +79,25 @@ animation: pop_in 0.5s ease-in;
   cursor: pointer;
   box-shadow: 0 0 0.7rem rgb(255, 9, 50);
   border: 0px;
-  content:  url('../assets/close.svg');
+  /* content:  url('../assets/close.svg'); */
 }
 .close{
-  animation: close 1s forwards;
-  transition: 3s;
+  animation: close 1s forwards ease;
+  transition:  3s ease;
 }
 
 .open {
-  animation: open_ 1s forwards;
-  transition: 3s;
+  animation: open_ 1s forwards ease;
+  transition:  3s ease;
 }
 
 .antirotate{
-  animation: antirotate 1s ease-in;
+  animation: antirotate 1s ease;
   transition: 15s;
 }
 
 .rotate{
-  animation: rotate 1s ease-in;
+  animation: rotate 1s ease;
   transition: 15s;
   }
 
