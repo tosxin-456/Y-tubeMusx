@@ -40,6 +40,7 @@ color: white;
 display: none;
 animation: pop_in 2s ease-in;
 }
+
 @keyframes pop_in{
   0%{
     opacity: 0;
@@ -186,7 +187,6 @@ animation: pop_in 2s ease-in;
 .options img{
   height: 1.8rem;
   width: 1.8rem;
-  margin-right: 10px;
 }
 
 .options p {
@@ -205,9 +205,10 @@ animation: pop_in 2s ease-in;
   transition: 2s;
   color: white;
 }
- img {
+ .rocketMan img {
   width: 70%;
  }
+
 .article{
   width: 70%;
 }
@@ -221,12 +222,11 @@ color: white;
 font-family: 'Poppins',sans-serif;
 background-color: #242424;
 border: none;
-
 }
+
  input::placeholder{
 font-family: 'Poppins',sans-serif;
 font-size: 1rem;
-
  }
 
  .rocketMan{
@@ -237,7 +237,7 @@ font-size: 1rem;
   box-shadow: 0 0 1rem black;
   width: fit-content;
  }
- .article{
+ /* .article{
   background-color: #242424;
   padding: 10px;
   border-radius: 2rem;
@@ -248,15 +248,16 @@ font-size: 1rem;
   background-color: #242424;
   margin-top: 5%;
   display: flex;
- }
+ } */
+
  input:focus {
   outline: none;
 }
 
-.article img{
+/* .article img{
   width: 2rem;
   margin-left: auto;
-}
+} */
 
 .rotate{
   animation: rotate 4s ease-in;
@@ -286,9 +287,13 @@ font-size: 1rem;
  .options img{
   width: 2rem;
   height: 2rem;
-  margin: auto;
+  /* margin: auto; */
  }
  
+#homee {
+  /* background-color: black; */
+  margin: auto;
+}
  
  .hamburger{
    transition: left 3s;

@@ -1,7 +1,5 @@
 import React ,{useState} from 'react'
-import { Link } from 'react-router-dom'
 import hamburger from '../assets/hamburger.svg'
-import close from '../assets/close.svg'
 import youTubeLogo from '../assets/logo.svg'
 import home from '../assets/home.svg'
 import playlist from '../assets/playlist.svg'
@@ -10,7 +8,6 @@ import premium from '../assets/premuim.svg'
 import liked from '../assets/liked.svg'
 import account from '../assets/my account.svg'
 import musicman from '../assets/music man.svg'
-import search from '../assets/search.svg'
 import '../css/navbar.css'
 import Homepage from './homePage'
 
@@ -63,24 +60,24 @@ const Navbar = () => {
             <p className='top'>TopMusic</p>
           </div>
           <div className='options'>
-          <img src={home} id='home' alt="" />
+          {/* <img src={home} id='homee' alt=""  /> */}
             <p>Home</p>
             <div className='description'> Home </div>
         </div>
         <div className='options'>
-          <img src={playlist} id ='playlist' alt="" />
+          <img src={home} id ='playlist' alt="" />
             <p>Playlist</p>
             <div className='description'> Playlist</div>
         </div>
         <div className='options'>
-          <img src={artist} id = 'artist' alt="" />
-            <p>Artist</p>
-            <div className='description'> Artists</div>
+          <img src={playlist} id = 'artist' alt="" />
+            <p>Playlist</p>
+            <div className='description'> Playlist</div>
         </div>
         <div className='options'>
-          <img src={premium} alt="" id='premium' />
-            <p>Premium</p>
-            <div className='description'> Premium</div>
+          <img src={artist} alt="" id='premium' />
+            <p>Artist</p>
+            <div className='description'> Artist</div>
         </div>
         <div className='options'>
           <img src={liked} alt="" id='liked' />
