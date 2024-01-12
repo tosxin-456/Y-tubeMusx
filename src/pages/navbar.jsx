@@ -54,7 +54,7 @@ const Navbar = () => {
           <img className='hamburger' src={hamburger} alt="" id='hambe' onClick = {()=>Clicked()} />
         <div className='image_and_text'>
             <img src={youTubeLogo} alt="" />
-            <p className='top'>TopMusic</p>
+            <p className='top'>topMusic</p>
           </div>
           <div className='options'>
           <img src={home} id='homee' alt=""  />
