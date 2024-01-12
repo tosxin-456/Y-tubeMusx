@@ -79,19 +79,19 @@ animation: pop_in 2s ease-in;
   content:  url('../assets/close.svg');
 }
 .close{
-  animation: close 3s forwards;
+  animation: close 2s forwards;
   transition: 3s;
 }
 
 .open {
-  animation: open_ 3s forwards;
+  animation: open_ 2s forwards;
   transition: 3s;
 }
 
 
 
 .antirotate{
-  animation: antirotate 4s ease-in;
+  animation: antirotate 3s ease-in;
   transition: 15s;
 }
 
@@ -294,7 +294,7 @@ font-size: 1rem;
    transition: left 3s;
   }
   .rotate{
-    animation: rotate 4s ease-in;
+    animation: rotate 3s ease-in;
     transition:  15s;
   }
   
