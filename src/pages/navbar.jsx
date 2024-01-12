@@ -23,12 +23,17 @@ const Navbar = () => {
     // const options = document.querySelector('.options')
     if (navBa.offsetWidth > 150) {
       console.log('open')
+      close.style.border = 'none'
+      close.style.boxShadow = '0 0 0.7rem rgb(255, 9, 50)'
       hamburger.classList.remove('rotate')
       hamburger.classList.add('antirotate')
       hamburger.style.display = 'block'
       close.style.display = 'none'
       navBa.classList.remove('open')
       navBa.classList.add('close')
+      setTimeout(() => {
+        hamburger.style.boxShadow = 'unset'
+      }, 1000);
       if (navBa.offsetWidth < window.innerWidth * 0.5) {
         rocketMan.style.display = 'none'
         top.style.display = 'none'
@@ -40,6 +45,8 @@ const Navbar = () => {
       
     } else {
       console.log('close')
+      hamburger.style.border = 'none'
+      hamburger.style.boxShadow = '0 0 0.7rem rgb(255, 9, 50)'
       hamburger.style.display = 'none'
       close.style.display = 'block'
       close.classList.remove('rotate')
@@ -52,6 +59,7 @@ const Navbar = () => {
       setTimeout(() => {
         top.style.display = 'block'
         rocketMan.style.display = 'block';
+        close.style.boxShadow = 'unset'
       }, 1000);
     }
   }

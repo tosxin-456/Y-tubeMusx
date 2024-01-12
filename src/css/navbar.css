@@ -79,11 +79,19 @@ animation: pop_in 0.5s ease-in;
   transition: 3s;
 }
 
-.hamburger:hover{
+.hamburger:active{
   cursor: pointer;
+}
+
+#close:hover{
   box-shadow: 0 0 0.7rem rgb(255, 9, 50);
   border: 0px;
 }
+#hambe{
+  box-shadow: 0 0 0.7rem rgb(255, 9, 50);
+  border: 0px;
+}
+
 .close{
   animation: close 1s ease forwards;
   transition:  3s ease;
