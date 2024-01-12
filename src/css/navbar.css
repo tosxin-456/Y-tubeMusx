@@ -89,12 +89,16 @@ animation: pop_in 2s ease-in;
   transition: 3s;
 }
 
-
-
 .antirotate{
-  animation: antirotate 3s ease-in;
+  animation: antirotate 1s ease-in;
   transition: 15s;
 }
+
+.rotate{
+  animation: rotate 1s ease-in;
+  transition: 15s;
+  }
+
 
 @keyframes antirotate{
   0%{
@@ -113,6 +117,25 @@ animation: pop_in 2s ease-in;
     transform: rotate(-180deg);
   }
 }
+
+@keyframes rotate{
+  0%{
+    transform: rotate(0deg);
+  }
+  25%{
+    transform: rotate(45deg);
+  }
+  50%{
+    transform: rotate(90deg);
+  }
+  75%{
+    transform: rotate(135deg);
+  }
+  100%{
+    transform: rotate(180deg);
+  }
+}
+
 
 @keyframes close{
 0%{
@@ -261,9 +284,7 @@ font-size: 1rem;
   margin-left: auto;
 } */
 
-.rotate{
-  animation: rotate 4s ease-in;
-  }
+
 
  @media screen and (max-width:550px) {
   nav{
@@ -296,27 +317,11 @@ font-size: 1rem;
    transition: left 3s;
   }
   .rotate{
-    animation: rotate 3s ease-in;
+    animation: rotate 1s ease-in;
     transition:  15s;
   }
   
-  @keyframes rotate{
-    0%{
-      transform: rotate(0deg);
-    }
-    25%{
-      transform: rotate(45deg);
-    }
-    50%{
-      transform: rotate(90deg);
-    }
-    75%{
-      transform: rotate(135deg);
-    }
-    100%{
-      transform: rotate(180deg);
-    }
-  }
+
   
   #home:hover{
      content: url('../assets/home_hover.svg');
