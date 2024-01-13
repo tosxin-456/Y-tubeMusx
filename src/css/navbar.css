@@ -385,10 +385,20 @@ font-size: 1rem;
   cursor: pointer;
 }
 #hambe{
+  width: 1.4rem;
   cursor: pointer;
 } 
+
+.image_and_text img {
+  width: 1.7rem;
+}
  .options{
   width: unset;
+ }
+
+ .options img {
+  width: 1.6rem;
+  margin: auto;
  }
  .image_and_text {
   width: 100%;

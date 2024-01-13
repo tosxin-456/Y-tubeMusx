@@ -21,7 +21,7 @@ const Navbar = () => {
     const top = document.querySelector('.top')
     const close = document.getElementById('close')
     // const options = document.querySelector('.options')
-    if (navBa.offsetWidth > 150) {
+    if (navBa.offsetWidth > 110) {
       close.style.border = 'none'
       close.style.boxShadow = '0 0 0.7rem rgb(255, 9, 50)'
       hamburger.classList.remove('antirotate')
@@ -42,6 +42,7 @@ const Navbar = () => {
         hamburger.style.boxShadow = 'unset'
       }, 1000);
     } else {
+      console.log(navBa.offsetWidth)
       hamburger.style.border = 'none'
       hamburger.style.boxShadow = '0 0 0.7rem rgb(255, 9, 50)'
       close.classList.remove('rotate')
