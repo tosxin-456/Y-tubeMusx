@@ -177,6 +177,6 @@ a {
 @media screen and (max-width:600px){
   .form{
     width: fit-content;
-    padding: 40px;
+    padding: 20px;
   }
 }
