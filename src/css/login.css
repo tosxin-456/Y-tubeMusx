@@ -99,7 +99,7 @@ button {
   color: white;
   width: 7rem;
   padding: 13px;
-  background-color: rgb(174, 5, 5);
+  background-color: #AE0505;
   border: none;
   border-radius: 12px;
   width: 10rem;
@@ -170,7 +170,7 @@ p {
 a {
   margin: 10px;
   font-size: 0.7rem;
-  color: red;
+  color: #AE0505;
   /* margin-bottom: 50px; */
 }
 
