@@ -23,7 +23,7 @@ const Navbar = () => {
     // const options = document.querySelector('.options')
     if (navBa.offsetWidth > 110) {
       close.style.border = 'none'
-      close.style.boxShadow = '0 0 0.7rem rgb(255, 9, 50)'
+      close.style.boxShadow = '0 0 0.7rem #AE0505'
       hamburger.classList.remove('antirotate')
       hamburger.classList.add('rotate')
       hamburger.style.display = 'block'
@@ -44,7 +44,7 @@ const Navbar = () => {
     } else {
       console.log(navBa.offsetWidth)
       hamburger.style.border = 'none'
-      hamburger.style.boxShadow = '0 0 0.7rem rgb(255, 9, 50)'
+      hamburger.style.boxShadow = '0 0 0.7rem #AE0505'
       close.classList.remove('rotate')
       close.classList.add('antirotate')
       hamburger.style.display = 'none'
