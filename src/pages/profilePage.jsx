@@ -10,9 +10,11 @@ const Profile = () => {
     <>
       <Navbar/>
       <div className="profileWrap">
+        <div className="profileHead">
         <h2>Profile</h2>
         <div className="profileImage">
         <img src='https://medlink-patient.vercel.app/assets/avatar-68656f99.svg' alt="" />
+        </div>
         </div>
         <div className="profileInfo">
         <p><span>Profile Name: </span>Tosin Poppins</p>

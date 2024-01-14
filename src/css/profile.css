@@ -6,13 +6,14 @@ body {
 border: solid 0.1rem  rgb(174, 5, 5);
 width: 100%;
 height: fit-content;
-padding: 15px;
+padding: 20px;
 /* background-color: rgb(174, 5, 5) ; */
 }
 
 h2 {
   color: white;
   text-align: center;
+  /* background-color: #242424; */
 }
 .logout {
   border: solid 0.1rem rgb(174, 5, 5) ;
@@ -42,7 +43,7 @@ p {
 
 .profileImage img {
   width: 4rem;
-}
+  }
 .profileImage {
   border-radius: 5px;
   padding: 10px;
@@ -55,6 +56,7 @@ p {
   text-align: start;
   padding: 2px;
 }
-.profileInfo {
-  
+.profileHead {
+  margin-bottom: 50px;
+  background-color: #242424;
 }
