@@ -26,9 +26,11 @@ const Login = () => {
         </div>
         <div className="formData">
           <img src={password} alt="" />
-          <input type="text" placeholder="password" />
+          <input type="password" placeholder="password" />
           </div>
           <a href=""> Forgot password?</a>
+        </div>
+        <div className=''>
         </div>
         <div className="buttonDiv">
           <Link to='/home' >
