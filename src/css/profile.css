@@ -1,0 +1,60 @@
+body {
+  margin: 0px;
+}
+
+.profileWrap {
+border: solid 0.1rem  rgb(174, 5, 5);
+width: 100%;
+height: fit-content;
+padding: 15px;
+/* background-color: rgb(174, 5, 5) ; */
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+.logout {
+  border: solid 0.1rem rgb(174, 5, 5) ;
+  display: flex;
+  width: 7rem;
+  padding: 2px;
+  border-radius: 5px;
+  text-align: end;
+  cursor: pointer;
+  margin-left:auto ;
+}
+.logout img {
+  margin: 5px;
+}
+
+span {
+  color: rgb(174, 5, 5) ;
+}
+p {
+  width: fit-content;
+}
+.logOutIcon {
+  width: fit-content;
+  margin-left: auto;
+  /* margin-top: 120px; */
+}
+
+.profileImage img {
+  width: 4rem;
+}
+.profileImage {
+  border-radius: 5px;
+  padding: 10px;
+  width: fit-content;
+  margin: auto;
+}
+.profileInfo p {
+  /* border: solid 0.1rem #169C89; */
+  width: 100%;
+  text-align: start;
+  padding: 2px;
+}
+.profileInfo {
+  
+}
