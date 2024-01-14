@@ -3,6 +3,7 @@ import logout from '../assets/majesticons_logout-half-circle.svg'
 import avatar from '../assets/avatar.svg'
 import '../css/profile.css'
 import Navbar from "./navbar"
+import { Link } from "react-router-dom"
 
 
 const Profile = () => {
@@ -24,10 +25,12 @@ const Profile = () => {
         <p><span>Premium Membership: </span>Tosin Poppins</p>
         </div>
         <div className="logOutIcon">
+          <Link to='/'>
         <div className="logout">
           <img src={logout} alt="" />
           <p>Logout</p>
         </div>
+          </Link>
         </div>
       </div>
     </>
