@@ -11,7 +11,7 @@ import musicman from '../assets/music man.svg'
 import close from '../assets/close.svg'
 import '../css/navbar.css'
 import Homepage from './homePage'
-
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
   function Clicked() {
@@ -95,9 +95,11 @@ const Navbar = () => {
             <p>Liked</p>
             <div className='description'> Liked</div>
         </div>   <div className='options'>
-          <img src={account} alt="" id='account' />
+            <Link to='/profile'>  
+            <img src={account} alt="" id='account' />
             <p>Account</p>
             <div className='description'> Account</div>
+            </Link>
           </div>
           <div className='rocketMan'>
           <p>Topins Musica en ecompassant</p>

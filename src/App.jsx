@@ -6,6 +6,7 @@ import Navbar from './pages/navbar'
 import Homepage from './pages/homePage'
 import Login from './pages/login'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Profile from './pages/profilePage'
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Router>
         <Routes>
           <Route exact path='/' element = {<Login/>}></Route>
-         <Route path='/home' element={<Navbar/>}/>
+          <Route path='/home' element={<Navbar />} />
+          <Route path='/profile' element={<Profile/>} />
         </Routes>
       </Router>
     </>
