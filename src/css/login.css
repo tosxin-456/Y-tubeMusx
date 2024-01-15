@@ -27,12 +27,22 @@ h1 {
   font-size: 1.5rem;
 }
 
+.passcodeText{
+  text-align: center;
+}
+.passcodeText {
+  width: 100%;
+}
 .nameAndLogo {
   display: flex;
   width: fit-content;
   margin: auto;
 }
+.connect {
 
+  margin: auto;
+  width: fit-content;
+}
 .nameAndLogo img {
   width: 2rem;
   margin: 4px;

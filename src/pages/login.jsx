@@ -38,7 +38,9 @@ const Login = () => {
           </Link>
         </div>
         <div>
-        <p>Or connect via</p>
+          <div className='connect'>
+            <p>Or connect via</p>
+          </div>
           <div className="icons">
             <div className="iconWithWriteUp">
             <Link to='/home'>
