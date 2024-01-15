@@ -13,7 +13,6 @@ margin: auto;
 }
 
 h2 {
-  padding-top: 20px;
   color: white;
   text-align: center;
   /* background-color: #242424; */
@@ -74,7 +73,7 @@ p {
   margin-left: auto;
   /* background-color: #242424; */
 }
-p {
+.logout p{
   text-decoration: none;
 }
 .profileImage:hover {

@@ -35,8 +35,6 @@ const Profile = () => {
         <p><span>Premium Membership: </span>true</p>
         <p><span>Privacy Policy: </span>Important for us</p>
         <p><span>Platform Rules:</span> Keeping us safe</p>
-        <p><span>Support:</span> Pay to keep us afloat </p>
-        <p><span>Storage: </span>Choose where to store</p>
         </div>
         <div className="logOutIcon">
           <Link to='/'>
