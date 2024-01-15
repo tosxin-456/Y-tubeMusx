@@ -45,13 +45,16 @@ p {
 }
 
 .profileImage img {
-  width: 4rem;
-  }
+  width: 3.5rem;
+  height: 3rem;
+}
 .profileImage {
+  background-color: white;
   border-radius: 5px;
-  padding: 10px;
+  padding: 7px;
   width: fit-content;
   margin: auto;
+  margin-top: -2.2rem;
 }
 .profileInfo p {
   /* border: solid 0.1rem #169C89; */
@@ -60,7 +63,8 @@ p {
   padding: 2px;
 }
 .profileHead {
-  margin-bottom: 50px;
+  height: 8rem;
+  /* margin-bottom: 50px; */
   background-color: #242424;
   border-radius: 7px;
 }
@@ -83,6 +87,5 @@ p {
 @media screen and (max-width:300px) {
 .profileWrap {
   width: 15rem;
-  bo
 }  
 }

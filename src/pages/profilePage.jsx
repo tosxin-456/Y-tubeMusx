@@ -1,6 +1,6 @@
 import React from "react"
 import logout from '../assets/majesticons_logout-half-circle.svg'
-import avatar from '../assets/avatar.svg'
+import avatar from '../assets/avatar2.svg'
 import '../css/profile.css'
 import back from '../assets/back.svg'
 import Navbar from "./navbar"
@@ -18,9 +18,9 @@ const Profile = () => {
         </div>
         <div className="profileHead">
         <h2>Profile</h2>
-        <div className="profileImage">
-        <img src='https://medlink-patient.vercel.app/assets/avatar-68656f99.svg' alt="" />
         </div>
+        <div className="profileImage">
+        <img src={avatar} alt="" />
         </div>
         <div className="profileInfo">
         <p><span>Profile Name: </span>Tosin Poppins</p>
