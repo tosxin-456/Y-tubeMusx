@@ -62,6 +62,7 @@ p {
 .profileHead {
   margin-bottom: 50px;
   background-color: #242424;
+  border-radius: 7px;
 }
 .back {
   width: fit-content;
@@ -79,8 +80,9 @@ p {
   }
 }
 
-@media screen and (max-width:470px) {
+@media screen and (max-width:300px) {
 .profileWrap {
-  width: 20rem;
+  width: 15rem;
+  bo
 }  
 }
