@@ -81,6 +81,6 @@ p {
 
 @media screen and (max-width:470px) {
 .profileWrap {
-  width: 100%;
+  width: 20rem;
 }  
 }
