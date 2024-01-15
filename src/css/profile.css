@@ -4,10 +4,11 @@ body {
 
 .profileWrap {
 border: solid 0.1rem  rgb(174, 5, 5);
+border-radius: 5px;
 width: 100%;
 height: fit-content;
 padding: 20px;
-/* background-color: rgb(174, 5, 5) ; */
+/* background-color: #242424 ; */
 }
 
 h2 {
@@ -18,15 +19,16 @@ h2 {
 .logout {
   border: solid 0.1rem rgb(174, 5, 5) ;
   display: flex;
-  width: 7rem;
-  padding: 2px;
+  width: 6rem;
+  padding: 0px 2px;
   border-radius: 5px;
   text-align: end;
   cursor: pointer;
   margin-left:auto ;
+  background-color: #242424;
 }
 .logout img {
-  margin: 5px;
+  margin: 3px;
 }
 
 span {
@@ -59,4 +61,13 @@ p {
 .profileHead {
   margin-bottom: 50px;
   background-color: #242424;
+}
+
+.logout p {
+  color: rgb(174, 5, 5) ;
+}
+
+.back {
+  width: fit-content;
+  margin-left: auto;
 }
