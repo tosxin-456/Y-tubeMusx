@@ -73,10 +73,26 @@ p {
   margin-left: auto;
   /* background-color: #242424; */
 }
-.logout{
-  outline: none;
+p {
+  text-decoration: none;
+}
+.profileImage:hover {
+  cursor: pointer;
+ animation: dim 4s ease-in-out;
+}
+#file {
+  display: none;
+  background-color: #763d3d;
 }
 
+@keyframes dim {
+0%{
+  opacity: 1;
+}
+100% {
+  opacity: 0.4;
+}
+}
 
 @media screen and (max-width:550px) {
   .profileWrap {
