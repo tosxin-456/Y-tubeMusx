@@ -91,8 +91,6 @@ const Navbar = () => {
             <div className='description'> Artists</div>
         </div>
           </Link>
-          <Link>
-          </Link>
           <Link>      
         <div className='options'>
           <img src={premium} alt="" id='premium' />

@@ -152,6 +152,9 @@ animation: pop_in 0.5s ease-in;
   max-width: 20rem;
   width: fit-content;
  }
+a {
+  margin: auto;
+}
 
 input{
 color: white;
@@ -212,7 +215,9 @@ font-size: 1rem;
   #hambe{
     cursor: pointer;
   } 
-
+   a {
+    margin: auto;
+  }
   .options:hover .description{
     display: block;
     font-size: 12px;
