@@ -70,37 +70,50 @@ const Navbar = () => {
             <img src={youTubeLogo} loading='lazy' alt="" />
             <p className='top'>topMusic</p>
           </div>
+            <Link>  
           <div className='options'>
           <img src={home} id='homee' alt=""  />
             <p>Home</p>
             <div className='description'> Home </div>
         </div>
+          </Link>
+          <Link>     
         <div className='options'>
           <img src={playlist} id ='playlist' alt="" />
             <p>Playlist</p>
             <div className='description'> Playlist</div>
         </div>
+          </Link>
+          <Link>   
         <div className='options'>
           <img src={artist} id = 'artist' alt="" />
             <p>Artist</p>
             <div className='description'> Artists</div>
         </div>
+          </Link>
+          <Link>
+          </Link>
+          <Link>      
         <div className='options'>
           <img src={premium} alt="" id='premium' />
             <p>Premium</p>
             <div className='description'> Premium</div>
         </div>
+          </Link>
+          <Link>
         <div className='options'>
           <img src={liked} alt="" id='liked' />
             <p>Liked</p>
             <div className='description'> Liked</div>
-        </div>   <div className='options'>
+            </div>
+          </Link>
             <Link to='/profile'>  
+            <div className='options'>
             <img src={account} alt="" id='account' />
             <p>Account</p>
             <div className='description'> Account</div>
+            </div>
             </Link>
-          </div>
           <div className='rocketMan'>
           <p>Topins Musica en ecompassant</p>
           <img src={musicman} alt="" />
