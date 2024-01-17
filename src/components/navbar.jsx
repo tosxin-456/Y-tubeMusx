@@ -10,7 +10,7 @@ import account from '../assets/my account.svg'
 import musicman from '../assets/music man.svg'
 import close from '../assets/close.svg'
 import '../css/navbar.css'
-import Homepage from './homePage'
+import Homepage from '../pages/homePage'
 import {Link} from 'react-router-dom'
 
 const Navbar = () => {
