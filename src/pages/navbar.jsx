@@ -70,35 +70,35 @@ const Navbar = () => {
             <img src={youTubeLogo} loading='lazy' alt="" />
             <p className='top'>topMusic</p>
           </div>
-            <Link>  
+            <Link to = '/home'>  
           <div className='options'>
           <img src={home} id='homee' alt=""  />
             <p>Home</p>
             <div className='description'> Home </div>
         </div>
           </Link>
-          <Link>     
+          <Link to = '/playlist'>     
         <div className='options'>
           <img src={playlist} id ='playlist' alt="" />
             <p>Playlist</p>
             <div className='description'> Playlist</div>
         </div>
           </Link>
-          <Link>   
+          <Link to = '/artist'>   
         <div className='options'>
           <img src={artist} id = 'artist' alt="" />
             <p>Artist</p>
             <div className='description'> Artists</div>
         </div>
           </Link>
-          <Link>      
+          <Link to = '/premuim'>      
         <div className='options'>
           <img src={premium} alt="" id='premium' />
             <p>Premium</p>
             <div className='description'> Premium</div>
         </div>
           </Link>
-          <Link>
+          <Link to = '/liked songs'>
         <div className='options'>
           <img src={liked} alt="" id='liked' />
             <p>Liked</p>
