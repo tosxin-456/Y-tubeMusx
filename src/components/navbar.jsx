@@ -91,14 +91,14 @@ const Navbar = () => {
             <div className='description'> Artists</div>
         </div>
           </Link>
-          <Link to = '/premuim'>      
+          <Link to = '/premium'>      
         <div className='options'>
           <img src={premium} alt="" id='premium' />
             <p>Premium</p>
             <div className='description'> Premium</div>
         </div>
           </Link>
-          <Link to = '/liked songs'>
+          <Link to = '/likedsongs'>
         <div className='options'>
           <img src={liked} alt="" id='liked' />
             <p>Liked</p>

@@ -7,7 +7,6 @@ import logo from '../assets/logo7.svg'
 import spotify from '../assets/spotify.svg'
 import apple from '../assets/applemusic.svg'
 import youtube from '../assets/youtubemusic.svg'
-import Navbar from '../components/navbar';
 
 const Login = () => {
   return (

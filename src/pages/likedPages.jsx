@@ -1,11 +1,15 @@
 import React from 'react'
+import Navbar from '../components/navbar';
 
-function likedPage() {
+
+
+function Liked () {
   return (
     <div>
+      <Navbar/>
       
     </div>
   )
 }
 
-export default likedPage
+export default Liked
