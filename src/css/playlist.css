@@ -1,0 +1,16 @@
+body {
+  background-image: url('../assets/taylor\ with\ book.jpg');
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.backgrounDiv {
+  background-color: rgba(0, 0, 0, 0.5); 
+  
+}
