@@ -8,9 +8,28 @@ body {
   width: 100%;
   height: 100vh;
   object-fit: cover;
+  animation: changingImages 7s infinite;
 }
 
 .backgrounDiv {
   background-color: rgba(0, 0, 0, 0.5); 
   
+}
+
+@keyframes changingImages {
+  0% {
+    content: url('../assets/phone taylor.jpg');
+  }
+ 25% {
+  content: url('../assets/taylorBook.jpg');
+ }
+ 50% {
+  content: url('../assets/weekend.jpg');
+ }
+ 75% {
+  content: url('../assets/phone taylor.jpg');
+ }
+ 100% {
+  content: url('../assets/weekend.jpg');
+ }
 }
