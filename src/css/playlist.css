@@ -3,6 +3,9 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
+nav {
+  opacity: 0.8;
+}
 
 .background {
   width: 100%;
@@ -12,9 +15,11 @@ body {
 }
 
 .backgrounDiv {
+  /* position: fixed; */
   background-color: rgba(0, 0, 0, 0.5); 
   
 }
+
 
 @keyframes changingImages {
   0% {
