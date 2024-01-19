@@ -6,7 +6,8 @@ import Navbar from '../components/navbar';
 function Artist() {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
+      <h1>hello</h1>
     </div>
   )
 }

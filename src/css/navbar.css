@@ -519,6 +519,7 @@ font-size: 1rem;
 }
 100%{
   width: 8%;
+  opacity: 0.8;
 }
 }
 @keyframes open_ {
