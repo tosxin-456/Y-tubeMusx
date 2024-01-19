@@ -11,7 +11,7 @@ nav {
   width: 100%;
   height: 100vh;
   object-fit: cover;
-  animation: changingImages 7s infinite;
+  animation: changingImages 8s infinite;
 }
 
 .backgrounDiv {
@@ -25,16 +25,34 @@ nav {
   0% {
     content: url('../assets/phone taylor.jpg');
   }
- 25% {
-  content: url('../assets/taylorBook.jpg');
+ 10% {
+   content: url('../assets/weekend.jpg');
+  }
+  20% {
+    content: url('../assets/taylorBook.jpg');
+  }
+ 30% {
+  content: url('../assets/weekend2.jpg');
+ }
+ 40% {
+  content: url('../assets/wizkid.jpeg');
  }
  50% {
-  content: url('../assets/weekend.jpg');
+  content: url('../assets/Davido.jpeg');
  }
- 75% {
-  content: url('../assets/phone taylor.jpg');
+ 60% {
+   content: url('../assets/drake.jpg');
+ }
+70% {
+ content: url('../assets/harryStyles.jpeg');
+}
+80% {
+ content: url('../assets/Sia.jpeg');
+}
+90% {
+  content: url('../assets/harryStyles2.jpeg');
  }
  100% {
-  content: url('../assets/weekend.jpg');
+  content: url('../assets/drake.jpg');
  }
 }

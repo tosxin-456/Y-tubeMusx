@@ -537,6 +537,8 @@ font-size: 1rem;
   }
   100%{
     width: 40%;
+    opacity: 1;
+
   }
 }
  }
