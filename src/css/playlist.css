@@ -4,9 +4,9 @@ body {
   transition: 10s;
   height: 100vh;
   background-position: center;
-  background-size: 70% 100%;
+  background-size: 65% 100%;
   background-repeat: no-repeat;
-  animation: changingImages 10s  infinite;
+  animation: changingImages 60s  infinite;
   margin: 0;
   padding: 0;
   /* display: flex; */
@@ -64,40 +64,75 @@ nav {
   0% {
     background-image: url('../assets/bob marley.jpeg');
   }
-  10% {
+  5% {
    background-image: url('../assets/The Beatles.jpeg');
   }
-  20% {
+  10% {
  
     background-image: url('../assets/phone taylor.jpg');
   }
-  30% {
+  15% {
     background-image: url('../assets/weekend2.jpg');
   }
-  40% {
+  20% {
    
   background-image: url('../assets/wizkid.jpeg');
  }
-  50% {
-   
+  25% {
   background-image: url('../assets/Davido.jpeg');
  }
- 60% {
- 
+ 30% {
    background-image: url('../assets/drake.jpg');
  }
-70% {
+35% {
  
  background-image: url('../assets/harryStyles.jpeg');
 }
-80% {
+40% {
  
  background-image: url('../assets/Sia.jpeg');
 }
-90% {
+45% {
  
   background-image: url('../assets/coldplay.jpeg');
  }
+ 50% {
+  background-image: url('../assets/burnaBoy.jpeg');
+}
+55% {
+ background-image: url('../assets/samSmith.jpeg');
+}
+60% {
+
+  background-image: url('../assets/yee.jpeg');
+}
+65% {
+  background-image: url('../assets/kendrick.jpeg');
+}
+70% {
+ 
+background-image: url('../assets/Queen II.jpeg');
+}
+75% {
+ 
+background-image: url('../assets/kanye.jpeg');
+}
+80% {
+
+ background-image: url('../assets/Sia2.jpeg');
+}
+85% {
+
+background-image: url('../assets/beatles2.jpeg');
+}
+90% {
+
+background-image: url('../assets/taylorBook.jpg');
+}
+95% {
+
+background-image: url('../assets/weekend2.jpg');
+}
 }
 
 @media screen and (max-width:550px) {
