@@ -384,10 +384,9 @@ font-size: 1rem;
   width: 1.4rem;
   cursor: pointer;
 } 
-.hamburger {
-  /* margin-left: unset; */
-  /* margin: auto; */
-}
+/* .hamburger {
+  
+} */
 .image_and_text img {
   width: 1.7rem;
 }
