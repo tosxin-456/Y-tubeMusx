@@ -7,7 +7,7 @@ function Artist() {
   return (
     <div>
       <Navbar />
-      <h1>hello</h1>
+      <h1>Artist</h1>
     </div>
   )
 }
