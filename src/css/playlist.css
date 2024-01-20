@@ -38,7 +38,7 @@ nav {
 
 @keyframes changingImages {
   0% {
-    background-image: url('../assets/taylorBook.jpg');
+    background-image: url('../assets/bob marley.jpeg');
   }
   10% {
    background-image: url('../assets/The Beatles.jpeg');
@@ -72,6 +72,6 @@ nav {
 }
 90% {
  
-  background-image: url('../assets/harryStyles2.jpeg');
+  background-image: url('../assets/coldplay.jpeg');
  }
 }
