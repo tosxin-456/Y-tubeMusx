@@ -6,13 +6,9 @@ import '../css/playlist.css'
 
 const Playlist = ()=> {
   return (
-    <div>
+    <div className='body'>
       <h1>Playlists</h1>
       <Navbar />
-      <div className='playlistCovers'>
-        <div className='row'>
-       </div>
-      </div>
     </div>
   )
 }

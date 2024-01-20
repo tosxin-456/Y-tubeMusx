@@ -317,15 +317,6 @@ font-size: 1rem;
   0%{
     width: 40%;
   }
-  25%{
-    width:30%
-  }
-  50%{
-    width: 20%;
-  }
-  75%{
-    width: 10%;
-  }
   100%{
     width: 8%;
   }
@@ -334,15 +325,6 @@ font-size: 1rem;
   @keyframes open_ {
     0%{
       width: 8%;
-    }
-    25%{
-      width:10%
-    }
-    50%{
-      width: 20%;
-    }
-    75%{
-      width: 30%;
     }
     100%{
       width: 40%;
@@ -508,15 +490,6 @@ font-size: 1rem;
 0%{
   width: 40%;
 }
-25%{
-  width:30%
-}
-50%{
-  width: 20%;
-}
-75%{
-  width: 10%;
-}
 100%{
   width: 8%;
   opacity: 0.8;
@@ -525,15 +498,6 @@ font-size: 1rem;
 @keyframes open_ {
   0%{
     width: 8%;
-  }
-  25%{
-    width:10%
-  }
-  50%{
-    width: 20%;
-  }
-  75%{
-    width: 30%;
   }
   100%{
     width: 40%;
