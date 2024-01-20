@@ -7,16 +7,12 @@ import '../css/playlist.css'
 const Playlist = ()=> {
   return (
     <div>
+      <h1>Playlists</h1>
       <Navbar />
       <div className='playlistCovers'>
         <div className='row'>
-          
        </div>
       </div>
-      <div className='backgrounDiv'>
-      {/* <img className='background' src={background1} alt="" /> */}
-      </div>
-      
     </div>
   )
 }
