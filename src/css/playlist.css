@@ -2,15 +2,16 @@ body {
   position: relative;
   background-image: url('../assets/musicians.jpeg');
   transition: 10s;
-  background-size: cover;
-  /* background-repeat: no-repeat; */
-  animation: changingImages 10s  infinite;
   height: 100vh;
+  background-position: center;
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
+  animation: changingImages 10s  infinite;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 body::before {
   z-index: -1;
@@ -97,4 +98,10 @@ nav {
  
   background-image: url('../assets/coldplay.jpeg');
  }
+}
+
+@media screen and (max-width:550px) {
+  body {
+    background-size: cover;
+  }
 }
