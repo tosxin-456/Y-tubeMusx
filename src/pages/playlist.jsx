@@ -8,10 +8,15 @@ const Playlist = ()=> {
   return (
     <div>
       <Navbar />
-      <div className='backgrounDiv'>
-      <img className='background' src={background1} alt="" />
+      <div className='playlistCovers'>
+        <div className='row'>
+          
+       </div>
       </div>
-
+      <div className='backgrounDiv'>
+      {/* <img className='background' src={background1} alt="" /> */}
+      </div>
+      
     </div>
   )
 }
