@@ -15,6 +15,7 @@ height: 100%;
 left: 0;
 top: 0;
 }
+
 p {
   text-decoration: none;
 }
@@ -201,6 +202,7 @@ font-size: 1rem;
   nav{
     width: 40%;
   }
+  
   .image_and_text p {
     color: white;
     font-size:1.2rem;
@@ -383,7 +385,8 @@ font-size: 1rem;
   cursor: pointer;
 } 
 .hamburger {
-  margin: auto;
+  /* margin-left: unset; */
+  /* margin: auto; */
 }
 .image_and_text img {
   width: 1.7rem;
