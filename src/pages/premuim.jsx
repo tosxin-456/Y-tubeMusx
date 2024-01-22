@@ -7,7 +7,8 @@ import Navbar from '../components/navbar';
 function Premuim() {
   return (
     <div>
-    <Navbar/>      
+      <Navbar />  
+      <h1>Premium Account</h1>
     </div>
   )
 }
