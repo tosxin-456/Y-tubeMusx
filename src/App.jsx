@@ -18,8 +18,8 @@ function App() {
       <Router>
         <Routes>
           <Route exact path='/' element = {<Login/>}></Route>
-          <Route path='/home' element={<Navbar />} />
-          <Route path='/profile' element={<Profile />} />
+          <Route path='/home' element={<Homepage/>}></Route>
+          <Route path='/profile' element={<Profile />}></Route> 
           <Route exact path='/likedsongs' element = {<Liked/>}></Route>
           <Route exact path='/artist' element = {<Artist/>}></Route>
           <Route exact path='/premium' element = {<Premuim/>}></Route>

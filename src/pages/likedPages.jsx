@@ -10,6 +10,7 @@ function Liked () {
       <h1>
         Liked Images
       </h1>
+      <h2>Welcome Back <span>Tosin Popinns</span></h2>
     </div>
   )
 }
