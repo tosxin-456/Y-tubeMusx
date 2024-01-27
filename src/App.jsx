@@ -1,9 +1,9 @@
 import React, { useState, } from 'react'
 import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar'
 import Homepage from './pages/homePage'
 import Login from './pages/login'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Profile from './pages/profilePage'
 import Liked from './pages/likedPages'
 import Artist from './pages/artist'
@@ -18,13 +18,12 @@ function App() {
       <Router>
         <Routes>
           <Route exact path='/' element = {<Login/>}></Route>
-          <Route path='/home' element={<Homepage/>}></Route>
-          <Route path='/profile' element={<Profile />}></Route> 
+          <Route path='/home' element={<Navbar/>}></Route>
+          <Route path='/profile' element={<Profile/>}></Route> 
           <Route exact path='/likedsongs' element = {<Liked/>}></Route>
           <Route exact path='/artist' element = {<Artist/>}></Route>
           <Route exact path='/premium' element = {<Premuim/>}></Route>
           <Route exact path='/playlist' element = {<Playlist/>}></Route>
-          
         </Routes>
       </Router>
     </>
